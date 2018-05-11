@@ -8,4 +8,4 @@ echo Installing Homebrew
 
 echo "Setting up apps"
 
-brew cask install zsh tmux hyper google-chrome git sublime-text3 caffeine spotify aria2c vlc 7zX chromecast cyberduck irssi bwn-ng htop
+brew cask install zsh tmux hyper wget google-chrome git sublime-text3 caffeine spotify aria2c vlc 7zX chromecast cyberduck irssi bwn-ng htop
