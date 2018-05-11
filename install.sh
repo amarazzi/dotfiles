@@ -3,6 +3,9 @@
 # script autoinstall
 #
 
+echo Installing Homebrew
+/usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
+
 echo "Setting up apps"
 
-brew cask install zsh google-chrome git sublime-text3 caffeine gimp spotify aria2c vlc 7zX chromecast cyberduck irssi hyper bwn-ng htop tmux
+brew cask install zsh tmux hyper google-chrome git sublime-text3 caffeine spotify aria2c vlc 7zX chromecast cyberduck irssi bwn-ng htop
