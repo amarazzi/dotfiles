@@ -30,6 +30,8 @@ module.exports = {
     // `'BEAM'` for |, `'UNDERLINE'` for _, `'BLOCK'` for █
     cursorShape: "BLOCK",
 
+    modifierKeys: { altIsMeta: true },
+
     // set to `true` (without backticks and without quotes) for blinking cursor
     cursorBlink: false,
 
